@@ -7,6 +7,6 @@
       "default_icon": "./public/hello_extensions.png"
     }, 
     "chrome_url_overrides": {
-      "newtab": "hello.html"
+      "newtab": "./src/index.html"
     }
   }
