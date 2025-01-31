@@ -1,0 +1,12 @@
+{
+    "name": "Hello Extensions",
+    "description": "Open New Tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_icon": "./public/hello_extensions.png"
+    }, 
+    "chrome_url_overrides": {
+      "newtab": "hello.html"
+    }
+  }

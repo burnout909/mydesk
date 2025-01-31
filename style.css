@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+    text-align: center;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #greeting {
+    color: black;
+    font-size: 3rem;
+  }
+  
+  #focus-input {
+    margin-top: 20px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+  }
+  
+  #time {
+    padding-top: 20px;
+    font-size: 24px;
+    color: black;
+  }
