@@ -1,0 +1,16 @@
+.hidden {
+  display:none
+}
+
+/* 배경 이미지 적용 */
+#wrapper {
+  margin:0;
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(50%); /* 밝기 조절 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
